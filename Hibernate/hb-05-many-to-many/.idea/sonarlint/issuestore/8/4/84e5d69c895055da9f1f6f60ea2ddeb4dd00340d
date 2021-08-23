@@ -1,0 +1,6 @@
+
+@
+java:S1481"*Remove this unused "theId" local variable.(š’Ù³
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(¥òåşÿÿÿÿ
+N	java:S106&"9Replace this use of System.out or System.err by a logger.(»ö£ø
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(ìíåÒıÿÿÿÿ

@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<HTML lang="en" xmlns:th="http://www.thyemleaf.org">
+<HEAD>
+    <TITLE>Company Directory</TITLE>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+</HEAD>
+<style>
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+<BODY>
+<div class="container">
+    <h3>Company Directory</h3>
+    <hr>
+<!--    &lt;!&ndash; Add a button &ndash;&gt;-->
+<!--    <a th:href="@{/company/showFormForAdd}"-->
+<!--       class="btn btn-primary btn-sm mb-3">-->
+<!--        New Company-->
+<!--    </a>-->
+    <hr>
+    <table class="table table-bordered table-striped table-hover">
+        <thead class="thead-dark">
+        <tr class="table-primary">
+            <th>Company Name</th>
+            <th>CMMI Level</th>
+            <th>Head Count</th>
+            <th>Action</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr th:each="tempCompany: ${companies}">
+
+            <td th:text="${tempCompany.companyName}" />
+            <td th:text="${tempCompany.cmmiLevel}" />
+            <td th:text="${tempCompany.headCount}" />
+            <td>
+                <div class="row">
+                    <div class="col-small">
+                        <!-- Add "update" button/link -->
+                        <form action="#" th:action="@{/company/showFormForUpdateCompany}" method="POST">
+
+                            <input type="hidden" name="companyId" th:value="${tempCompany.id}" />
+                            <button type="submit" class="btn btn-info btn-sm ml-3 mr-1">Update</button>
+
+                        </form>
+                    </div>
+
+                    <div class="col-small">
+                        <!-- Add "delete" button/link -->
+                        <form action="#" th:action="@{/company/deleteCompany}" method="POST">
+
+                            <input type="hidden" name="companyId" th:value="${tempCompany.id}" />
+                            <button type="submit" class="btn btn-danger btn-sm"
+                                    onclick="if (!(confirm('Are you sure you want to delete this Company?'))) return false">
+                                Delete
+                            </button>
+
+                        </form>
+                    </div>
+                </div>
+            </td>
+        </tr>
+
+        </tr>
+
+        </tbody>
+    </table>
+</div>
+<div align="center">
+<a th:href="@{/}" class="button" >welcome page</a>
+</div>
+</BODY>
+</HTML>

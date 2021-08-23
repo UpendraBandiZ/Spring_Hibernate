@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e4f8e36d-8de8-4bd1-8eee-6b28d42a7fa9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../AOP/AnnotationsDemo (copy)/spring-demo-aop-pointcut.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AOP/AnnotationsDemo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AOP/AnnotationsDemo/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AOP/AnnotationsDemo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AOP/AnnotationsDemo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AOP/AnnotationsDemo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AOP/AnnotationsDemo/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AOP/AnnotationsDemo/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AOP/AnnotationsDemo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AOP/AnnotationsDemo/spring-demo-aop-pointcut.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AOP/Around-exception/spring-demo-aop-pointcut.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AOP/Around-with-logger/spring-demo-aop-pointcut.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AOP/Around/spring-demo-aop-pointcut.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AOP/after_finally/spring-demo-aop-pointcut.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AOP/aop-after-throwing/spring-demo-aop-pointcut.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AOP/aop-g-after-returning/spring-demo-aop-pointcut.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AOP/pointcut-order-aspects/spring-demo-aop-pointcut.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AOP/reading-joint-points/spring-demo-aop-pointcut.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AOP/spring-aop-pointcut-combo/spring-demo-aop-pointcut.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hibernate/hb-05-many-to-many/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hibernate/hb-05-many-to-many/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jackson-databinding-json-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-crm-rest-demo/.idea/spring-crm-rest-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-rest-demo/.idea/spring-rest-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity/01-spring-security/src/main/java/demo/config/DemoAppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity/01-spring-security/src/main/java/demo/config/DemoSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity/01-spring-security/src/main/java/demo/config/MySpringMvcDispatcherServletIntializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity/01-spring-security/src/main/java/demo/config/SecurityWebApplicationIntializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity/01-spring-security/src/main/java/demo/controller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebApp/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1wbxYqxGNBONDe4ZV5bO6iL3e4g" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4f8e36d-8de8-4bd1-8eee-6b28d42a7fa9" name="Changes" comment="" />
+      <created>1628741139849</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628741139849</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,0 +1,4 @@
+#
+#Mon Aug 09 23:05:50 IST 2021
+com.luv2code.springsecurity.demo.config.DemoAppConfig=org.springframework.stereotype.Component
+com.luv2code.springsecurity.demo.controller.DemoController=org.springframework.stereotype.Component

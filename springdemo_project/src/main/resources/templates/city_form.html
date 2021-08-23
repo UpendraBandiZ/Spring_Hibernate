@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <title>Save City</title>
+    <style>
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h3>City Directory</h3>
+    <hr>
+
+    <p class="h4 mb-4">Save City</p>
+
+    <form action="#" th:action="@{/city/save}"
+          th:object="${city}" method="POST">
+
+
+
+        <input type="hidden" th:field="*{id}">
+
+        <input type="text" th:field="*{cityName}"
+               class="form-control mb-4 col-4" placeholder="city name" required>
+
+        <input type="text" th:field="*{stateName}"
+               class="form-control mb-4 col-4" placeholder="state name" required>
+
+
+
+        <button type="submit" class="btn btn-info col-2">Save</button>
+
+    </form>
+
+
+    <hr>
+    <a class="button" th:href="@{/city/list}">Back to city List</a>
+
+</div>
+</body>
+
+</html>

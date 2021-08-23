@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<HTML lang="en" xmlns:th="http://www.thyemleaf.org">
+<HEAD>
+    <TITLE>Company Directory</TITLE>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+</HEAD>
+<BODY>
+<div class="container">
+    <h3>City Directory</h3>
+    <hr>
+    <!-- Add a button -->
+    <a th:href="@{/city/showFormForAdd}"
+       class="btn btn-primary btn-sm mb-3">
+        New City
+    </a>
+    <hr>
+    <table class="table table-bordered table-striped table-hover">
+        <thead class="thead-dark">
+        <tr class="table-primary">
+            <th>City Name</th>
+            <th>State Name</th>
+
+            <th>Action</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr th:each="tempCity: ${cities}">
+
+            <td th:text="${tempCity.cityName}" />
+            <td th:text="${tempCity.stateName}" />
+
+            <td>
+                <div class="row">
+
+                    <div class="col-small">
+                        <!-- Add "delete" button/link -->
+                        <form action="#" th:action="@{/city/delete}" method="POST">
+
+                            <input type="hidden" name="cityId" th:value="${tempCity.id}" />
+                            <button type="submit" class="btn btn-danger btn-sm"
+                                    onclick="if (!(confirm('Are you sure you want to delete this City?'))) return false">
+                                Delete
+                            </button>
+
+                        </form>
+                    </div>
+                </div>
+            </td>
+        </tr>
+
+        </tr>
+
+        </tbody>
+    </table>
+    <div align="center">
+        <a th:href="@{/}" class="button" >welcome page</a>
+    </div>
+</div>
+</BODY>
+</HTML>

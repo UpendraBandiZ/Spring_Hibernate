@@ -1,0 +1,5 @@
+#
+#Tue Aug 10 10:00:31 IST 2021
+demo.config.DemoAppConfig=org.springframework.stereotype.Component
+demo.config.DemoSecurityConfig=org.springframework.stereotype.Component
+demo.controller.DemoController=org.springframework.stereotype.Component
